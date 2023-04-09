@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #141529;
+}
+
+.wallets::-webkit-scrollbar {
+    width: 10px;
+}
+
+.wallets::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.wallets::-webkit-scrollbar-thumb {
+    background-color: #5e5a5a;
+    border-radius: 5px;
+    border: none;
+}
